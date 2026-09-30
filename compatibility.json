@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "implementation": "chrome-compat-independent-20260930-v1",
+  "marker": "/* ChromeCompatPatch:20260930:v1 */",
+  "factory": "__ccpIdentificationPolicy_20260930",
+  "controlToken": "__CCP_CONTROL_PATH_JSON__",
+  "versions": {
+    "26.924.51851": {
+      "sha256": "d8988307ecd056703914c3bcb8294469e6cbb65bdf45c790bf6df219d4edb735",
+      "binding": "new th(r,this.clientApi,()=>qe(this.runtime),this.turnEndedTracker,a_)",
+      "replacement": "new th(r,this.clientApi,()=>qe(this.runtime),this.turnEndedTracker,__ccpIdentificationPolicy_20260930(()=>qe(this.runtime),a_))"
+    }
+  }
+}

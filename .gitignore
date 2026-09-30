@@ -1,0 +1,18 @@
+/state/
+/temp/
+/dist/
+# 本地工作约定及完整实现过程记录不进入发布范围。
+/AGENTS.md
+/BEHAVIOR_SPEC.md
+/REIMPLEMENTATION.md
+/config.toml
+/auth.json
+/credentials.json
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
